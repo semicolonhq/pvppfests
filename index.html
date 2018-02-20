@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>PVPP FESTS 2018</title>
+		<meta name="description" content="Draggable Dual-View Slideshow: A Slideshow with two views and content area" />
+		<meta name="keywords" content="draggable, slideshow, fullscreen, carousel, views, zoomed, 3d transform, perspective, dragdealer" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link href='http://fonts.googleapis.com/css?family=Playfair+Display:900,400|Lato:300,400,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/dragdealer.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+  		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<div class="container">
+
+			<header id="header" class="codrops-header">
+					<!-- <h1>Draggable Dual-View Slideshow</h1> -->
+				<!-- <span class="message">This mobile version does not have the slideshow switch</span> -->
+				<button class="slider-switch">Switch view</button>
+			</header>
+			<div id="overlay" class="overlay">
+				<div class="info">
+					<h2>How to interact</h2>
+					<span class="info-drag">Drag Sliders</span>
+					<span class="info-keys">Use Arrows</span>
+					<span class="info-switch">Switch view</span>
+					<button>Got it!</button>
+				</div>
+			</div>
+			<div id="slideshow" class="dragslider">
+				<section class="img-dragger img-dragger-large dragdealer">
+					<div class="handle">
+						<div class="slide" data-content="content-1">
+							<div class="img-wrap"><img src="img/1.png" alt="img1"/></div>
+							<h2>Fusion<span>#</span></h2>
+							<button class="content-switch">Read more</button>
+						</div>
+						<div class="slide" data-content="content-2">
+							<div class="img-wrap"><img src="img/2.jpg" alt="img2"/></div>
+							<h2>Day 1<span>Oscillation</span></h2>
+							<button class="content-switch">Read more</button>
+						</div>
+						<div class="slide" data-content="content-3">
+							<div class="img-wrap"><img src="img/3.jpg" alt="img3"/></div>
+							<h2>Day 2<span>Tantra</span></h2>
+							<button class="content-switch">Read more</button>
+						</div>
+						<div class="slide" data-content="content-4">
+							<div class="img-wrap"><img src="img/4.jpg" alt="img4"/></div>
+							<h2>Day 3,4 & 5<span>The Rest</span></h2>
+							<button class="content-switch">Read more</button>
+						</div>
+
+					</div>
+				</section><!-- /img-dragger-->
+				<!-- Content section -->
+				<section class="pages">
+					<div class="content" data-content="content-1">
+						<h2>About Fusion</h2>
+						<p>Fusion is the annual techno-cultural festival of Padmabhushan VasantDada Patil Pratishthan's College of Engineering. Fusion meaning a combination of various things, in this case a mix of cultural and technical activities. Fusion is a platform for students to show off their technical and creative skills. It is a tradition of this college that has been followed for more than 15 years. Fusion ia a 5 day long extravaganza. An event that not only will provide fun but also an opportunity to interact with pupils of different institutions. The event will host a bag full of activities. Those who prefer brain over brawn with fight in out in academic competitions. The creative one will satisfy their zest through cultural competitions. The evening will shine with special performances taking care of the entertainment quotient. The fun doesn't end here there will be food, games and many more stuff to enjoy. We the people of Padmabhushan VasantDada Patil Pratishthan's College of Engineering determined to make this megafest a shining triumph with efforts and innovation.
+						</p>
+						<!-- college info -->
+						<h2>About College</h2>
+						<p>Padmabhushan VasantDada Patil Pratishthan's College of Engineering is established in 1990 with the grace of Late Shri.VasantDada Patil, Former Chief minister of Maharashtra and 10th Governor of Rajasthan by late shri. Manoharmama Phalke. The college is spread over a total area of 7.34 acres of land out of which 4 acres is for playground. It is located in the heart of Mumbai city, on the Eastern Express Highway and closely connected with central and harbor line train stations. Institute Accredited by National Board of Accreditation (NBA) for 3 years w.e.f. March 15, 2012. Institute is honored with 2nd rank among the Mumbai Colleges by Higher Education Review and Ranked 9th in the "Top 20 Engineering Colleges in India with Excellent Industry Exposure". </p>
+					</div>
+					<div class="content" data-content="content-2">
+						<h2>Oscillation</h2>
+						<p>Oscillation is the 1st day of Technical Festival of Padmabhushan Vasantdada Patil Pratishthan’s College of Engineering. It provides a Technical background for all the students from different streams with a perfect stage to showcase their technical expertise. The main goal of “OSCILLATION “ is to acknowledge students with emerging ideas in this fascinating and expanding world of science and engineering. Thus this festival manifests the conglomeration of talent, intellect, innovative and competitive spirit of the students. Oscillations is not only about the exhibition and competition but it also looks ahead to guide the students towards an appropriate path. Oscillation has been designed by the ISF committee which is a culmination of two major branches namely Electronics and Electronics and Telecommunication branch. The main aspect of this event is to enhance and strengthen technical skills and explore students capability.</p>
+					</div>
+					<div class="content" data-content="content-3">
+						<h2>Tantra</h2>
+						<p>Tantra is the 2nd day of Technical Festival of Padmabhushan Vasantdada Patil Pratishthan’s College of Engineering. Dynamic budding engineering students here are highly versatile not only in academics but also in social, technical, sports, cultural festivals and non technical activities. By the virtue of the alumni, college is holding strong position in MNC’s. Tantra is the combination of two major branches namely Computer and Information technology
+</p>
+					</div>
+					<div class="content" data-content="content-4">
+						<h2>About Fusion</h2>
+					</div>
+
+				</section>
+			</div>
+		</div><!-- /container -->
+		<script src="js/dragdealer.js"></script>
+		<script src="js/classie.js"></script>
+		<script src="js/dragslideshow.js"></script>
+		<script>
+			(function() {
+
+				var overlay = document.getElementById( 'overlay' ),
+					overlayClose = overlay.querySelector( 'button' ),
+					header = document.getElementById( 'header' )
+					switchBtnn = header.querySelector( 'button.slider-switch' ),
+					toggleBtnn = function() {
+						if( slideshow.isFullscreen ) {
+							classie.add( switchBtnn, 'view-maxi' );
+						}
+						else {
+							classie.remove( switchBtnn, 'view-maxi' );
+						}
+					},
+					toggleCtrls = function() {
+						if( !slideshow.isContent ) {
+							classie.add( header, 'hide' );
+						}
+					},
+					toggleCompleteCtrls = function() {
+						if( !slideshow.isContent ) {
+							classie.remove( header, 'hide' );
+						}
+					},
+					slideshow = new DragSlideshow( document.getElementById( 'slideshow' ), {
+						// toggle between fullscreen and minimized slideshow
+						onToggle : toggleBtnn,
+						// toggle the main image and the content view
+						onToggleContent : toggleCtrls,
+						// toggle the main image and the content view (triggered after the animation ends)
+						onToggleContentComplete : toggleCompleteCtrls
+					}),
+					toggleSlideshow = function() {
+						slideshow.toggle();
+						toggleBtnn();
+					},
+					closeOverlay = function() {
+						classie.add( overlay, 'hide' );
+					};
+
+				// toggle between fullscreen and small slideshow
+				switchBtnn.addEventListener( 'click', toggleSlideshow );
+				// close overlay
+				overlayClose.addEventListener( 'click', closeOverlay );
+
+			}());
+		</script>
+	</body>
+</html>
