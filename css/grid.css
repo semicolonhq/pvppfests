@@ -1,0 +1,23 @@
+
+.flex-container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width:300px;
+  height:300px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.flex-container > div {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #97a399;
+  text-align: center;
+}
